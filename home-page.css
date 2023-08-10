@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/images/marmari.jpg");
+}
+
+.container {
+    min-height: 100%;
+    height: 100%;
+}
+
+.first-line {
+    width: 100%;
+    height: 150px;
+    color: black;
+    background-color: orange;
+   
+}
+
+
+.bor {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+h1 {
+    justify-content: center;
+}
+
+/* .main-1 {
+    border-color: red;
+    border-style:groove;
+    align-items: end;
+    justify-content: end;
+    height: 520px;
+    width: 50%;
+  } */
+
+   .bor1 {
+    border-color: green;
+    border-style: groove;
+    
+  }
+
+  .footer {
+    border-color: purple;
+    border-style: groove;
+    height: 100px;
+    /* background-color: black; */
+    color: white;
+  }
+
+  /* ul {
+    list-style: none;
+    padding-left: 60px;
+    display: inline-block;
+  } */
+
+  .restaur-title {
+    color: red;
+    font-style: italic;
+  }
+
+  p {
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color:brown;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: gray;
+    border: 1px solid whitesmoke;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.box-1 {
+    width: 50%;
+    height: 250px;
+    background-color: black;
+    border: 1px solid yellow;
+    
+} */
