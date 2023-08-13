@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("/images/marmari.jpg");
+    /* background-image: url("images/marmaraki.jpg"); */
 }
 
 .container {
@@ -13,24 +13,24 @@ body {
     height: 100%;
 }
 
-.first-line {
+/* .first-line {
     width: 100%;
     height: 150px;
     color: black;
     background-color: orange;
    
-}
+} */
 
 
 .bor {
-    border-width: 1px;
     border-style: solid;
     border-color: blue;
+    height: 85px;
 }
 
-h1 {
+/* h1 {
     justify-content: center;
-}
+} */
 
 /* .main-1 {
     border-color: red;
@@ -44,14 +44,18 @@ h1 {
    .bor1 {
     border-color: green;
     border-style: groove;
-    
+  }
+
+  .bor2 {
+    border-color: aqua;
+    border-style: groove;
   }
 
   .footer {
     border-color: purple;
     border-style: groove;
     height: 100px;
-    /* background-color: black; */
+    background-color: black;
     color: white;
   }
 
@@ -66,8 +70,10 @@ h1 {
     font-style: italic;
   }
 
-  p {
-    color: white;
+  .dinner  {
+    color:black;
+    font-style:oblique;
+    font-size: x-large;
   }
 
 
