@@ -1,18 +1,16 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    min-height: 100%;
-    height: 100%;    
-    position: absolute;
-    top: 80px;
-    right: 15px;
-    font-weight: bold;
-    color: black;
-    font-size: 20px;
+  min-height: 100%;
+  height: 100%;
+  top: 80px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
 
 /* body {
@@ -24,14 +22,14 @@ img {
   width: 100%;
   height: 100%;
   opacity: 0.8;
-  position:fixed;
+  position: fixed;
 }
 
 .bor {
-    /* border-style: solid;
-    border-color: blue; */
-    height: 80px;
-    
+  border-style: solid;
+  border-color: blue;
+  height: 80px;
+
 }
 
 .heading {
@@ -39,118 +37,59 @@ img {
   font-size: 40px;
   height: 50px;
   margin-bottom: 50px;
+  isolation: isolate;
+
 }
 
 
-   .bor1 {
-    /* border-color: green;
+.bor1 {
+  border-color: green;
+  border-style: groove;
+  isolation: isolate;
+
+}
+
+.bor2 {
+  /* border-color: aqua; */
+  isolation: isolate;
+  border-style: groove;
+
+}
+
+.footer {
+  /* border-color: purple;
     border-style: groove; */
-  }
-
-  .bor2 {
-    /* border-color: aqua; */
-    isolation: isolate;
-    border-style: groove;
-    
-  }
-
-  .footer {
-    /* border-color: purple;
-    border-style: groove; */
-    height: 100px;
-    background-color: black;
-    color: white;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  .restaur-title {
-    
-    /* background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
-    font-style: italic;
-  }
-
-  .dinner  {
-    color:black;
-    font-style:oblique;
-    font-size: x-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-/* 
-   .hero {
-    
-  background-image: url('images/marmaraki.jpg');
-    position: relative; 
-    height: 90vh;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-.hero::before {    
-  /* content: ""; */
-  /* background-image: url('images/marmaraki.jpg'); */
-  /* background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.75; */
-
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* body {
-    background-color:brown;
+  height: 100px;
+  background-color: black;
+  color: white;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    height: 100%;
-    background-color: gray;
-    border: 1px solid whitesmoke;
+
+ul {
+  list-style: none;
 }
 
-h1 {
-    color: whitesmoke;
+.li-border {
+  border-color: darkmagenta;
+  border-style: groove;
 }
 
-.box-1 {
-    width: 50%;
-    height: 250px;
-    background-color: black;
-    border: 1px solid yellow;
-    
-} */
+.li-border:hover {
+  color: white;
+  transition: all 0.3s ease;
+  background-color: black;
+  cursor: pointer;
+}
+
+.restaur-title {
+
+  /* background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
+  font-style: italic;
+}
+
+.dinner {
+  color: black;
+  font-style: oblique;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
