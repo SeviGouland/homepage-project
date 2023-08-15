@@ -25,8 +25,7 @@
     <div class="container">
       <div class="row">
         <div
-          class="col-12 d-flex justify-content-center bor align-items-center"
-        >
+          class="col-12 d-flex justify-content-center bor align-items-center">
           <div class="heading mt-2">Καλώς ορίσατε στο Μαρμάρι Ευβοίας!</div>
         </div>
       </div>
@@ -35,18 +34,16 @@
         <div class="col-2 bor1">
           <!-- <div><p class="dinner"><u><strong>Μέρη για φαγητό</strong></u></p></div> -->
           <ul class="list-group">
-            <li class="li-border" onclick="showMarmariDetails()">Μαρμάρι</li>
-            <li class="li-border">Παραλίες</li>
-            <li class="li-border">Ταβέρνες</li>
-            <li class="li-border">Κοντινοί Προορισμοί</li>
+            <li id="marmari" class="li-border active" onclick="showMarmariDetails()">Μαρμάρι</li>
+            <li id="paralies" class="li-border" onclick="showParaliesDetails()">Παραλίες</li>
+            <li id="tavernes" class="li-border" onclick="showTavernesDetails()">Ταβέρνες</li>
+            <li id="kontinoi-proorismoi" class="li-border" onclick="showKontinoiProorismoiDetails()">Κοντινοί Προορισμοί</li>
             <li class="li-border">And a fifth one</li>
           </ul>
         </div>
 
-        <div class="col-10 bor1">
-          <div class="row">
-            <div class="col-12 bor2">
-              <div class="menu-btn-1">
+        <div class="col-10 bor1">   
+              <div id="menu1">
                 <p class="font-weight-bold">
                   Το όμορφο Μαρμάρι είναι χτισμένο αμφιθεατρικά, με θέα
                   πανοραμική στον ομώνυμο κόλπο, αλλά και στους ειδυλλιακούς
@@ -78,13 +75,39 @@
                   παραλίες του Μαρμαρίου!
                 </p>
               </div>
-              <div class="menu-btn-2" style="display: none;">
-                <p class="font-weight-bold">
-                  Τaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                </p>
+              <div id="menu2" style="display: none;">
+                <div class="row">
+                    <div class="col-8 bor2">
+                        <ul><p><ins>Παραλία Ζάστανη</ins></p>
+                            <p>Η παραλία Ζαστάνη ή Ζαστάνι όπως επίσης την αποκαλούν πολλοί, βρίσκεται κοντά στο φημισμένο Μαρμάρι, στον νότιο Ευβοϊκό και αποτελεί ένα ησυχαστήριο που σε μαγεύει από το πρώτο λεπτό. Εκεί θα βρεις ρηχά και ήρεμα νερά τα οποία έχουν γαλαζοπράσινο χρώμα και είναι πεντακάθαρα.
+                                Λευκά βότσαλα και λευκή άμμος συνθέτουν το σκηνικό μαζί με βράχους που στην πραγματικότητα λειτουργούν με τέτοιο τρόπο ώστε κόβουν τον αέρα. Γι’ αυτό το λόγο πρόκειται κατά κύριο λόγο για μια ήρεμη παραλία που δε θα σε απογοητεύσει με κύμα.
+                                Μπορούμε να πούμε με σιγουριά ότι είναι η παραλία που μπορείς να την απολαύσεις από νωρίς το πρωί έως και το ηλιοβασίλεμα το οποίο είναι μοναδικό από εκεί.
+                                Μόλις φτάσεις με το αυτοκίνητο θα βρεις έναν χωματόδρομο και θα χρειαστεί να περπατήσεις σε ένα εύκολο μονοπάτι πεζός. Και μετά έφτασες στον άγνωστο παράδεισο της Εύβοιας, την παραλία Ζαστάνη.
+                            </p>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 bor2">
+                        <img src="/homepage-project/images/zastani.webp" alt="zastani">
+                    </div>
+          
+                    <div class="col-8 bor2">geia</div>
+                    <div class="col-4 bor2">geia</div>
+
+                    <div class="col-8 bor2">geia</div>
+                    <div class="col-4 bor2">geia</div>
+                </div>
               </div>
-            </div>
-          </div>
+              <div id="menu3" style="display: none;">
+             <p class="font-weight-bold">
+                HELLOOOOOOO
+            </p>
+              </div>
+              <div id="menu4" style="display: none;">
+        <p class="font-weight-bold">
+            Geiaaaaaa
+        </p>
+       </div>
         </div>
       </div>
 
