@@ -9,7 +9,8 @@ window.onload = (event) => {
     menu2 = document.getElementById("menu2");
     menu3 = document.getElementById("menu3");
     menu4 = document.getElementById("menu4");
-    menu5 = document.getElementById("menu5");
+    menu5
+     = document.getElementById("menu5");
 };
 
 function myFunction() {
@@ -27,7 +28,7 @@ function showMarmariDetails() {
     marmari.classList.add("active");
 
 
-    menu1.style.display = "inline";
+    menu1.style.display = "block";
     menu2.style.display = "none";
     menu3.style.display = "none";
     menu4.style.display = "none";
@@ -41,7 +42,7 @@ function showParaliesDetails() {
     paralies.classList.add("active");
 
     menu1.style.display = "none";
-    menu2.style.display = "inline";
+    menu2.style.display = "block";
     menu3.style.display = "none";
     menu4.style.display = "none";
     menu5.style.display = "none";
@@ -55,7 +56,7 @@ function showTavernesDetails() {
 
     menu1.style.display = "none";
     menu2.style.display = "none";
-    menu3.style.display = "inline";
+    menu3.style.display = "block";
     menu4.style.display = "none";
     menu5.style.display = "none";
 }
@@ -69,7 +70,7 @@ function showKontinoiProorismoiDetails() {
     menu1.style.display = "none";
     menu2.style.display = "none";
     menu3.style.display = "none";
-    menu4.style.display = "inline";
+    menu4.style.display = "block";
     menu5.style.display = "none";
 }
 
@@ -83,7 +84,7 @@ function showProtaseisGiaDrast() {
     menu2.style.display = "none";
     menu3.style.display = "none";
     menu4.style.display = "none";
-    menu5.style.display = "inline";
+    menu5.style.display = "block";
 }
 
 

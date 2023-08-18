@@ -5,92 +5,57 @@
 }
 
 body {
-  background-color: #35A29F !important;
-  /* background-image: linear-gradient(315deg, #0C356A 0%, #b0f3f1 74%);; */
+  background-color: #5ca0f2;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
 }
 
 .container {
   min-height: 100%;
   height: 100%;
   top: 80px;
-  font-weight: bold;
-  color: black;
-  font-size: 13px;
 }
 
-
-/* img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
-  position: fixed;
-} */
+.bor1 {
+  padding-left:580px;
+}
 
 .bor {
-  /* border-style: solid;
-  border-color: blue;
-  height: 80px; */
-
+  border-style: solid;
+  border-color: pink;
 }
 
 .heading {
-  font-family: 'Caveat', cursive;
-  font-size: 40px;
-  /* height: 50px;
-  margin-bottom: 50px;
-  isolation: isolate; */
-
-}
-
-
-.bor1 {
-  border-color: green;
-  border-style: groove;
-  isolation: isolate;
-
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 38px;
+  color: #1A5F7A;
 }
 
 .bor2 {
-  /* border-color: aqua; */
   isolation: isolate;
-  border-style: groove;
-
 }
 
 .footer {
-  border-color: purple;
+  border-color: fuchsia;
   border-style: groove;
-  height: 100px;
-  background-color: black;
+  height: 100%;
   color: white;
 }
-
 
 ul {
   list-style: none;
 }
 
 .li-border {
-  border-color: darkmagenta;
-  /* border-style: groove; */
-  border-radius: 5px;
-  color: #071952;
+  color: #144272;
+  font-size: 14px;
 }
 
 .li-border:hover {
-  color: #97FEED;
+  color: #075a7a;
   transition: all 0.5s ease;
-  /* background-color: black; */
   cursor: pointer;
   width: 100%;
   transform: scale(1.1);
-
-}
-
-.restaur-title {
-
-  /* background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
-  font-style: italic;
 }
 
 .dinner {
@@ -101,17 +66,40 @@ ul {
 }
 
 .active {
-  background-color: white;
+  color: #075a7a;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .bor3 {
   border-color: crimson;
-  border-style: groove;
 }
 
 .social__icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  width: 10px;
-}                           
+  font-size: 30px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+#marmari:hover {
+  transform: scale(1.1);
+}
+
+#paralies:hover {
+  transform: scale(1.1);
+}
+#tavernes:hover {
+  transform: scale(1.1);
+}
+
+#kontinoi-proorismoi:hover {
+  transform: scale(1.1);
+}
+
+#protaseis-gia-drast:hover {
+  transform: scale(1.1);
+}
