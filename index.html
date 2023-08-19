@@ -97,6 +97,15 @@
                 >Δραστηριότητες <i class="fas fa-skiing-nordic fa-xl"></i
               ></a>
             </li>
+            <li
+              id="epikoinoniste-mazi-mas"
+              class="nav-item nav-hov"
+              onclick="showEpikoinonisteMaziMas()"
+            >
+              <a class="nav-link" href="#"
+                >Επικοινωνήστε μαζί μας <i class="fas fa-address-book"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -472,24 +481,66 @@
             φαραγγιού και να μάθετε λεπτομέρειες για την περιοχή.
           </p>
         </div>
+        <div id="menu6" style="display: none">
+          <div class="card mb-1 w-75 p-3">
+            <div class="card-body">
+              <form>
+                <div class="mb-1 w-75 p-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email Επικοινωνίας:</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-1 w-75 p-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Τηλέφωνο:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-1 w-75 p-3">
+                  <label for="comment">Σχόλια:</label>
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    id="comment"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Υποβολή</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-
       <div class="row footer">
-        <div class="col-12 col-sm-10">
+        <div class="col-12 col-sm-8">
           <div class="img-evoia d-flex justify-content-start">
             <img src="images/evoia.png" alt="" width="200" height="120" />
           </div>
         </div>
         <div
+          class="col-12 col-sm-2 d-flex justify-content-sm-end justify-content-center align-items-center"
+        >
+          Βρείτε μας εδώ:
+        </div>
+        <div
           class="col-12 col-sm-2 social__icons d-flex bor justify-content-around"
         >
-          <a href="/" class="social__icon--link" target="_blank"
+          <a class="social__icon--link" target="_blank"
             ><i class="fab fa-facebook"></i
           ></a>
-          <a href="/" class="social__icon--link" target="_blank"
+          <a class="social__icon--link" target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="/" class="social__icon--link" target="_blank"
+          <a class="social__icon--link" target="_blank"
             ><i class="fab fa-youtube"></i
           ></a>
         </div>
