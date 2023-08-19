@@ -52,24 +52,36 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li id="marmari" class="nav-item" onclick="showMarmariDetails()">
+            <li
+              id="marmari"
+              class="nav-item nav-hov"
+              onclick="showMarmariDetails()"
+            >
               <a class="nav-link active" aria-current="page" href="#"
                 >Μαρμάρι <i class="fas fa-map-marker-alt"></i
               ></a>
             </li>
-            <li id="paralies" class="nav-item" onclick="showParaliesDetails()">
+            <li
+              id="paralies"
+              class="nav-item nav-hov"
+              onclick="showParaliesDetails()"
+            >
               <a class="nav-link" href="#"
                 >Παραλίες <i class="fas fa-umbrella-beach"></i
               ></a>
             </li>
-            <li id="tavernes" class="nav-item" onclick="showTavernesDetails()">
+            <li
+              id="tavernes"
+              class="nav-item nav-hov"
+              onclick="showTavernesDetails()"
+            >
               <a class="nav-link" href="#"
                 >Ταβέρνες <i class="fas fa-utensils"></i
               ></a>
             </li>
             <li
               id="kontinoi-proorismoi"
-              class="nav-item"
+              class="nav-item nav-hov"
               onclick="showKontinoiProorismoiDetails()"
             >
               <a class="nav-link" href="#"
@@ -78,7 +90,7 @@
             </li>
             <li
               id="protaseis-gia-drast"
-              class="nav-item"
+              class="nav-item nav-hov"
               onclick="showProtaseisGiaDrast()"
             >
               <a class="nav-link" href="#"
@@ -263,7 +275,7 @@
         </div>
         <div id="menu3" style="display: none">
           <div class="row">
-            <div class="col-xl-6 col-12 bor">
+            <div class="col-md-6 col-12 bor">
               <ul class="list-group mt-3 test">
                 <li>
                   <div class="fw-bold" class="restaur-title">Θάλασσα</div>
@@ -303,7 +315,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-xl-6 col-12 bor">
+            <div class="col-md-6 col-12 bor">
               <ul class="list-group mt-3 test">
                 <li>
                   <div class="fw-bold" class="restaur-title">
@@ -352,41 +364,55 @@
         <div id="menu4" style="display: none">
           <div class="row">
             <div class="col-6 bor">
-          <p>
-            Σε κοντινή απόσταση από το Μαρμάρι βρίσκονται διασκορπισμένα
-            καταπράσινα, γραφικά χωριά. Μεσόγεια τα περισσότερα, αξίζουν την
-            προσοχή σας καθώς, πέρα από το πανέμορφο φυσικό τοπίο, αποτελούν
-            αφετηρία για πεζοπορικές διαδρομές, ενώ διαθέτουν παραδοσιακές
-            ταβέρνες που μαγειρεύουν κυρίως με ντόπια υλικά. Με κατεύθυνση
-            βόρεια βρίσκονται το χωριό <b>Στουππαίοι</b> και ο οικισμός
-            <b>Βαρελλαίοι</b>, γνωστός για την υπέροχη παραλία του. Μόλις 9
-            χιλιόμετρα από το Μαρμάρι, το <b>Παραδείσι</b> θα σας εντυπωσιάσει:
-            καστανιές, κερασιές και πυκνή βλάστηση με γάργαρα νερά. Προς την
-            πλευρά του Αιγαίου, στα βορειοανατολικά, το <b>Ακταίο</b> προσφέρει
-            πανοραμική θέα προς τη θάλασσα, ενώ το παρακείμενο
-            <b>Κάστρο Φυλάγρας</b> είναι δημοφιλής προορισμός για πεζοπορία. Σε
-            κοντινή απόσταση βρίσκεται το <b>Γιαννίτσι</b>, ενώ στη σκιά της
-            <b>Μπούλιας</b> (η κορυφή της <b>Όχης</b> με υψόμετρο 1.127 μέτρα)
-            είναι κτισμένος ο <b>Άγιος Δημήτριος</b>, από όπου ξεκινά φαράγγι
-            που καταλήγει στην ομώνυμη παραλία. Σε κοντινή απόσταση βρίσκεται
-            και το <b>φαράγγι Δημοσάρη</b>. Το ορεινό <b>Πόθι</b>, ο
-            <b>Μελισσώνας</b> και το <b>Κατσαρώνι</b> αξίζουν επίσης μια βόλτα.
-          </p>
-        </div>
-        <div class="col-6 bor">
-          <div class="row">
-          <div class="col-6 bor">
-            <img src="images/marm.jpg"  class="img-fluid rounded" alt="">
-          </div> <div class="col-6 bor">
-            <img src="images/hello.jpg" class="img-fluid rounded" alt="">
-          </div> <div class="col-6 bor">
-            <img src="images/to-marmaraki.jpg" class="img-fluid rounded" alt="">
-          </div> <div class="col-6 bor">
-            <img src="images/megali-ammosss.webp" class="img-fluid rounded" alt="">
+              <p>
+                Σε κοντινή απόσταση από το Μαρμάρι βρίσκονται διασκορπισμένα
+                καταπράσινα, γραφικά χωριά. Μεσόγεια τα περισσότερα, αξίζουν την
+                προσοχή σας καθώς, πέρα από το πανέμορφο φυσικό τοπίο, αποτελούν
+                αφετηρία για πεζοπορικές διαδρομές, ενώ διαθέτουν παραδοσιακές
+                ταβέρνες που μαγειρεύουν κυρίως με ντόπια υλικά. Με κατεύθυνση
+                βόρεια βρίσκονται το χωριό <b>Στουππαίοι</b> και ο οικισμός
+                <b>Βαρελλαίοι</b>, γνωστός για την υπέροχη παραλία του. Μόλις 9
+                χιλιόμετρα από το Μαρμάρι, το <b>Παραδείσι</b> θα σας
+                εντυπωσιάσει: καστανιές, κερασιές και πυκνή βλάστηση με γάργαρα
+                νερά. Προς την πλευρά του Αιγαίου, στα βορειοανατολικά, το
+                <b>Ακταίο</b> προσφέρει πανοραμική θέα προς τη θάλασσα, ενώ το
+                παρακείμενο <b>Κάστρο Φυλάγρας</b> είναι δημοφιλής προορισμός
+                για πεζοπορία. Σε κοντινή απόσταση βρίσκεται το
+                <b>Γιαννίτσι</b>, ενώ στη σκιά της <b>Μπούλιας</b> (η κορυφή της
+                <b>Όχης</b> με υψόμετρο 1.127 μέτρα) είναι κτισμένος ο
+                <b>Άγιος Δημήτριος</b>, από όπου ξεκινά φαράγγι που καταλήγει
+                στην ομώνυμη παραλία. Σε κοντινή απόσταση βρίσκεται και το
+                <b>φαράγγι Δημοσάρη</b>. Το ορεινό <b>Πόθι</b>, ο
+                <b>Μελισσώνας</b> και το <b>Κατσαρώνι</b> αξίζουν επίσης μια
+                βόλτα.
+              </p>
+            </div>
+            <div class="col-6 bor">
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    src="images/my-evoia.jpg"
+                    class="img-fluid zoom rounded"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12">
+                  <img
+                    src="images/to-marmaraki.jpg"
+                    class="img-fluid zoom rounded"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12">
+                  <img
+                    src="images/hello.jpg"
+                    class="img-fluid zoom rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        </div>
-        </div>
         </div>
         <div id="menu5" style="display: none">
           <p class="fw-bold"><ins> Wind & Kite Surfing:</ins></p>
@@ -407,9 +433,9 @@
           </p>
           <p class="fw-bold"><ins> Boat Trip Πεταλιοί:</ins></p>
           <p>
-            Ένα μοναδικό ταξίδι με φουσκωτό ξεκινάει απο το
-            Μαρμάρι για τις «Μαλδίβες της Ελλάδας» τους Πεταλιούς. Μοναδικά
-            πεντακάθαρα νερά με την μεγαλύτερη διαύγεια στην Εύβοια μόλις 15 λεπτά από το Μαρμάρι.
+            Ένα μοναδικό ταξίδι με φουσκωτό ξεκινάει απο το Μαρμάρι για τις
+            «Μαλδίβες της Ελλάδας» τους Πεταλιούς. Μοναδικά πεντακάθαρα νερά με
+            την μεγαλύτερη διαύγεια στην Εύβοια μόλις 15 λεπτά από το Μαρμάρι.
           </p>
           <p class="fw-bold">
             <ins> Πεζοπορία στο φαράγγι Δημοσάρη:</ins>
@@ -445,44 +471,27 @@
             ειδικό περίπτερο, από όπου μπορείτε να προμηθευτείτε χάρτη του
             φαραγγιού και να μάθετε λεπτομέρειες για την περιοχή.
           </p>
-          <p class="fw-bold">
-            <ins> Δρακόσπιτο Όχης:</ins>
-          </p>
-          <p>
-            Πρόκειται για ένα αρχαίο κτίσμα που αποτελείται από τεράστιους
-            ογκόλιθους και βρίσκεται κάτω από την ψηλότερη κορυφή της Όχης.
-            Πιστεύεται πως ήταν τόπος λατρείας, χωρίς να έχει διευκρινισθεί
-            απόλυτα. Δυσπρόσιτο και τριγυρισμένο από γυμνούς γκριζωπούς βράχους
-            και πέτρες, παραμένει τυλιγμένο από μύθους και θρύλους που έχουν
-            δημιουργηθεί γύρω από αυτό.
-          </p>
         </div>
       </div>
 
       <div class="row footer">
-        <div class="social__icons bor">
-          <div class="col-xl-9">
-            <div class="img-evoia d-flex justify-content-start">
-              <img
-                src="images/evoia.png"
-                class="rounded-circle"
-                alt=""
-                width="200"
-                height="120"
-              />
-            </div>
+        <div class="col-12 col-sm-10">
+          <div class="img-evoia d-flex justify-content-start">
+            <img src="images/evoia.png" alt="" width="200" height="120" />
           </div>
-          <div class="col-2 d-flex justify-content-between mr-2">
-            <a href="/" class="social__icon--link" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="/" class="social__icon--link" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="/" class="social__icon--link" target="_blank"
-              ><i class="fab fa-youtube"></i
-            ></a>
-          </div>
+        </div>
+        <div
+          class="col-12 col-sm-2 social__icons d-flex bor justify-content-around"
+        >
+          <a href="/" class="social__icon--link" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="/" class="social__icon--link" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="/" class="social__icon--link" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
         </div>
       </div>
     </div>

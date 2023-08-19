@@ -16,27 +16,16 @@ body {
 }
 
 .bor1 {
-  padding-left:580px;
-}
-
-.bor {
-  border-style: solid;
-  border-color: pink;
+  padding-left: 580px;
 }
 
 .heading {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 38px;
   color: #1A5F7A;
 }
 
-.bor2 {
-  isolation: isolate;
-}
-
 .footer {
-  border-color: fuchsia;
-  border-style: groove;
   height: 100%;
   color: white;
 }
@@ -71,35 +60,28 @@ ul {
   font-weight: bold;
 }
 
-.bor3 {
-  border-color: crimson;
-}
-
 .social__icons {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-size: 30px;
+  font-size: 28px;
   width: 90%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
 }
 
-#marmari:hover {
+.nav-hov:hover {
   transform: scale(1.1);
+  transition: all 0.4s ease;
 }
 
-#paralies:hover {
-  transform: scale(1.1);
-}
-#tavernes:hover {
-  transform: scale(1.1);
-}
-
-#kontinoi-proorismoi:hover {
-  transform: scale(1.1);
+.zoom {
+  transition: transform .2s;
+  /* Animation */
+  margin: 0 auto;
 }
 
-#protaseis-gia-drast:hover {
-  transform: scale(1.1);
+.zoom:hover {
+  transition: all 0.4s ease;
+  transform: scale(3);
 }
