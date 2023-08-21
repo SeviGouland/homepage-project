@@ -114,3 +114,9 @@ img {
     font-size: 15px;
   }
 }
+
+.navbar {
+  border-top: #1A5F7A;  
+  border-top-style: groove;
+  width: 100%;
+}
