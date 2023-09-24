@@ -47,13 +47,6 @@ ul {
   transform: scale(1.1);
 }
 
-.dinner {
-  color: black;
-  font-style: oblique;
-  font-size: x-large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .active {
   color: #075a7a;
   font-size: 17px;
